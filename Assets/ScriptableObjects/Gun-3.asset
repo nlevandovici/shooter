@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f5a9bb690014a48b9b7b4da5f867fc, type: 3}
+  m_Name: Gun-3
+  m_EditorClassIdentifier: 
+  Name: Uzi
+  Damage: 3
+  FireDelay: 0.24
+  MagazineCapacity: 40
+  ReloadTime: 7
+  Icon: {fileID: 21300000, guid: e2209eec82a34a048887f46bf4eccf97, type: 3}
+  Prefab: {fileID: 8727270049448970267, guid: 438e97a923ed0cf46ac5922b4a45dfe6, type: 3}
+  fire:
+  - {fileID: 8300000, guid: 48283adefda01514e851c40517a63d59, type: 3}
+  - {fileID: 8300000, guid: 81ac649d26a9a96419b76c635591f6d8, type: 3}
+  BulletType: {fileID: 11400000, guid: 33d72f8172ea8e34e8355842ebb9c931, type: 2}
